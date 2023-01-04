@@ -1,5 +1,30 @@
 .login{
     background-image: url('../../assets/pexels-fauxels-3184419.jpg');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    opacity: 0.75;
+}
+
+.input-text {
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+    border-width: 1px;
+    --tw-border-opacity: 1;
+    border-color: rgb(138 138 142 / var(--tw-border-opacity));
+    background-image: none;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    --tw-text-opacity: 1;
+    color: rgb(138 138 142 / var(--tw-text-opacity));
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+.signup{
+    background-color: #f74d4d54;
 }
