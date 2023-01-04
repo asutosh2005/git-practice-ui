@@ -1,0 +1,87 @@
+.main-container {
+  min-height: 100vh;
+  background-image: linear-gradient(45deg, rgba(112, 184, 237, 0.8), #cc77f6),
+    url("../../assets/10-18-16-852_512.webp");
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.content {
+  background: #fff;
+  border-radius: 10px;
+  width: 350px;
+  height: 600px;
+  justify-content: center;
+  position: absolute;
+  left: 40%;
+  top: 5%;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  font-family: SourceSansPro-Bold;
+  font-size: 16px;
+  color: #4b2354;
+  padding: 20px 60px;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.login-btn {
+  align-items: center;
+  min-width: 180px;
+  height: 50px;
+  background-color: #bd59d4;
+  border-radius: 25px;
+  font-family: SourceSansPro-SemiBold;
+  font-size: 14px;
+  color: #fff;
+  margin-top: 25px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.sub-head {
+  text-align: center;
+  margin-top: 50px;
+  font-family: SourceSansPro-Regular;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #999;
+}
+
+.social-icon {
+  margin-top: 25px;
+  border-radius: 50%;
+  padding: 6px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  justify-content: center;
+}
+
+.signup-btn {
+  margin-top: 60px;
+  border: none;
+  background-color: #7cbff7;
+  align-items: center;
+  min-width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  font-size: 14px;
+  font-family: SourceSansPro-SemiBold;
+}
+
+.align-btn {
+  display: flex;
+  justify-content: center;
+}
