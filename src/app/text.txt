@@ -1,1 +1,2 @@
 This is for the testing
+I am adding new feature 1
