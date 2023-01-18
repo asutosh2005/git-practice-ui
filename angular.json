@@ -1,5 +1,8 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "cli": {
+    "analytics": false
+  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -107,5 +110,8 @@
       }
     }
   },
-  "defaultProject": "git-practice-ui"
+  "defaultProject": "git-practice-ui",
+  "cli": {
+    "analytics": "b498f243-d0d6-4fa7-bad5-085b1b8466fe"
+  }
 }
