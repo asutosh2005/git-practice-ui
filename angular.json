@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "git-practice-ui"
+  "defaultProject": "git-practice-ui",
+  "cli": {
+    "analytics": false
+  }
 }
