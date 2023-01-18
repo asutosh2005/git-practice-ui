@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'git-practice-ui';
+  email: string = "prabhat.shukla@thrymr.net";
 }
